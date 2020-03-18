@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="module1">
+<head>
+	<title>Todo App</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="angular.js"></script>
+</head>
+<body>
+	<center>
+		<h1>Angular Todo App</h1><br><br>
+		<div id="todo" ng-controller="mycont">
+			<form>
+				<input type="text" placeholder="Write Your task here..." id="task">
+				<button ng-click="add();" id="addtaskbtn">Add</button>
+			</form>			
+			<div id="list">
+				
+			</div>
+		</div>
+	</center>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

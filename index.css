@@ -1,0 +1,20 @@
+#task
+{
+	width: 400px;
+	height: 30px;
+}
+
+#addtaskbtn
+{
+	width: 100px;
+	height: 35px;
+	border: none;
+	background:cyan;
+	color: white;
+	cursor: pointer;
+}
+#list p,#list button
+{
+	display: inline-block;
+	margin-left: 5%;
+}
